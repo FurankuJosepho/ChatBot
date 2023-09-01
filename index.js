@@ -26,10 +26,10 @@ function ashBourne() {
         var talkBot = prompt ("What do you want to talk about Master?");
         if (talkBot == "Relationship") {
             var talk = prompt ("Hows your relationship with other?")
-            if (talk == "not good", "so bad", "bad", "not as good it should be") {
+            if (talk == "Not good", "Bo bad", "Bad", "Not as good it should be", "Sad", "Very sad") {
                 alert ("Communication, respect, trust, quality time, independence, and effective conflict resolution are essential components of a healthy and fulfilling relationship.")
-            } else if (talk = "good", "not bad", "not so bad", "the best") {
-                alert ("Keep up on having a good relationship with others Master Frank I your personal chat bot commended you for being the best person!")
+            } else if (talk = "Good", "Not bad", "Not so bad", "The best", "Happy Life", "Happy", "Very Happy") {
+                prompt ("Keep up on having a good relationship with others Master Frank I your personal chat bot commended you for being the best person!")
             }
         } else {
             alert ("Thank you for coming Master Frank!")
