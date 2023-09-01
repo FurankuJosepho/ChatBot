@@ -11,16 +11,27 @@
             display: flex;   /* Make Flex Container */
             justify-content: center;  /* Align in the center */
             align-items: flex-start;       /* Set vertical alignment */
-            background-color: lightcoral;
-            width: 100px;
-            max-width: 500px;
+            background-color:antiquewhite;
             height: 600px;
             max-height: max-content;
             margin-top: 30px;
+            border-radius: 20px;
+        }
+        .button {
+            display: flex !important;
+            text-align: center;
+            justify-content: center  !important;
         }
         .box {
             justify-content: center;  /* Align in the center */
             align-items: flex-start;       /* Set vertical alignment */
+        }
+        p {
+            text-align: center;
+            padding: 10px 10px;
+        }
+        img {
+            filter: drop-shadow(2px 1px 4px #000);
         }
         input {
             text-align: center;
@@ -28,6 +39,7 @@
             height: 50px;
             display: block;
             margin: auto;
+            border-radius: 30px;
         }
     </style>
 </head>
@@ -39,6 +51,9 @@
             <p id="botResponse">
                 Hi! I am your chat bot! Ask any questions!
             </p>
+            <div class="button">
+                <button class="btn btn-danger" id="Ashborn">Chat Bot</button>
+            </div>
         </div>
     </section>
 
