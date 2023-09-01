@@ -1,7 +1,7 @@
 function chat() {
     var know = {
-        "who are you?": "Hi Im am your personal chat bot! Pixie,<br> What is your name master?",
-        "Frank": "Hello master Frank!<br> How may I help you?",
+        "Who are you?": "Hi Im am your personal chat bot! Pixie,<br> What is your name master?",
+        "Frank": "Hello master!<br> How may I help you?",
         "I want to talk to you": "I'm sorry master Frank <br> I cant talk to you but <br> you call talk to my Brother",
         "How?": "Please click the button below",
         "Ok Thank you, Pixie!": "Your always welcome master Frank"
