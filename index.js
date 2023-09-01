@@ -21,24 +21,24 @@ function ashBourne() {
     alert ("Hello, Master Im Ashbourne your personal chatbot");
 
     var name = prompt ("What is your name?");
-    const yourAnswers = prompt ("How may I help you " + name + "?");
+    const yourAnswers = prompt ("How may I help you Master " + name + "?");
     if (yourAnswers == "I want to talk") {
-        var talkBot = prompt ("What do you want to talk about Master?");
+        var talkBot = prompt ("What do you want to talk about Master" + name + "?");
         if (talkBot == "Relationship") {
             var talk = prompt ("Hows your relationship with other?")
             if (talk == "Not good", "Bo bad", "Bad", "Not as good it should be", "Sad", "Very sad") {
-                alert ("Communication, respect, trust, quality time, independence, and effective conflict resolution are essential components of a healthy and fulfilling relationship.")
+                alert ("Communication, respect, trust, quality time, independence, and effective conflict resolution are essential components of a healthy and fulfilling relationship.");
             } 
             else if (talk == "Good", "Not bad", "Not so bad", "The best", "Happy Life", "Happy", "Very Happy") {
-            var positiveRelation = prompt ("Keep up on having a good relationship with others Master Frank I your personal chat bot commended you for being the best person!")
+                alert ("Keep up on having a good relationship with others Master Frank I your personal chat bot commended you for being the best person!");
             }
         } 
         else {
-            alert ("Thank you for coming Master Frank!")
+            alert ("Thank you for coming Master Frank!");
         }
     } 
     else {
-        alert ("Thank you for coming Master Frank!")
+        alert ("Thank you for coming Master Frank!");
     }
 }
 document.getElementById("Ashborn").onclick = ashBourne;
