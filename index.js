@@ -18,9 +18,10 @@ function chat() {
 }
 
 function ashBourne() {
-    alert ("Hello, Master Frank Im Ashbourne your personal chatbot");
+    alert ("Hello, Master Im Ashbourne your personal chatbot");
 
-    const yourAnswers = prompt ("How may I help you Master Frank?");
+    var name = prompt ("What is your name?");
+    const yourAnswers = prompt ("How may I help you " + name + "?");
     if (yourAnswers == "I want to talk") {
         var talkBot = prompt ("What do you want to talk about Master?");
         if (talkBot == "Relationship") {
