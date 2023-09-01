@@ -3,9 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <title>ChatBot</title>
+    <style>
+        section{
+            display: flex;   /* Make Flex Container */
+            justify-content: center;  /* Align in the center */
+            align-items: flex-start;       /* Set vertical alignment */
+            background-color:antiquewhite;
+            height: 600px;
+            max-height: max-content;
+            margin-top: 30px;
+            border-radius: 20px;
+        }
+        .button {
+            display: flex !important;
+            text-align: center;
+            justify-content: center  !important;
+        }
+        .box {
+            justify-content: center;  /* Align in the center */
+            align-items: flex-start;       /* Set vertical alignment */
+        }
+        p {
+            text-align: center;
+            padding: 10px 10px;
+        }
+        img {
+            filter: drop-shadow(2px 1px 4px #000);
+        }
+        input {
+            text-align: center;
+            width: 300px;
+            height: 50px;
+            display: block;
+            margin: auto;
+            border-radius: 30px;
+        }
+    </style>
 </head>
 <body>
-    
+    <section class="container"> 
+        <div class="box">
+            <img src="Chatbot.png" alt="">
+            <input type="text" id="userSpace" placeholder="Hello!" onkeydown="if(event.keyCode == 13){chat()}">
+            <p id="botResponse">
+                Hi! I am your chat bot! Ask any questions!
+            </p>
+            <div class="button">
+                <button class="btn btn-danger" id="Ashborn">Chat Bot</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Script -->
+    <script src="./index.js"></script>
 </body>
 </html>
