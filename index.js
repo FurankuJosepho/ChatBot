@@ -28,7 +28,8 @@ function ashBourne() {
             var talk = prompt ("Hows your relationship with other?")
             if (talk == "Not good", "Bo bad", "Bad", "Not as good it should be", "Sad", "Very sad") {
                 alert ("Communication, respect, trust, quality time, independence, and effective conflict resolution are essential components of a healthy and fulfilling relationship.")
-            } else if (talk = "Good", "Not bad", "Not so bad", "The best", "Happy Life", "Happy", "Very Happy") {
+            } 
+            else if (talk == "Good", "Not bad", "Not so bad", "The best", "Happy Life", "Happy", "Very Happy") {
                 prompt ("Keep up on having a good relationship with others Master Frank I your personal chat bot commended you for being the best person!")
             }
         } else {
