@@ -23,22 +23,25 @@ function ashBourne() {
     var name = prompt ("What is your name?");
     const yourAnswers = prompt ("How may I help you Master " + name + "?");
     if (yourAnswers == "I want to talk") {
-        var talkBot = prompt ("What do you want to talk about Master" + name + "?");
+        var talkBot = prompt ("What do you want to talk about Master " + name + "?");
         if (talkBot == "Relationship") {
-            var talk = prompt ("Hows your relationship with other?")
-            if (talk == "Not good", "Bo bad", "Bad", "Not as good it should be", "Sad", "Very sad") {
-                alert ("Communication, respect, trust, quality time, independence, and effective conflict resolution are essential components of a healthy and fulfilling relationship.");
+            var talkingBot = prompt ("Hows your relationship with other?")
+            if (talkingBot === "Sad") {
+                alert ("Communication, respect, trust, quality time, independence, and effective conflict resolution are essential components of a healthy and fulfilling relationship.")
             } 
-            else if (talk == "Good", "Not bad", "Not so bad", "The best", "Happy Life", "Happy", "Very Happy") {
-                alert ("Keep up on having a good relationship with others Master Frank I your personal chat bot commended you for being the best person!");
+            else if (talkingBot === "Happy") {
+                var thanks = prompt ("Keep up on having a good relationship with others Master " + name + ", I your personal chat bot commended you for being the best person!")
+                if (thanks == "Thanks") {
+                    alert ("Your welcome Master " + name + "!")
+                }
             }
         } 
         else {
-            alert ("Thank you for coming Master Frank!");
+            alert ("Thank you for coming Master " + name + "!" );
         }
     } 
     else {
-        alert ("Thank you for coming Master Frank!");
+        alert ("Thank you for coming Master " + name + "!" );
     }
 }
 document.getElementById("Ashborn").onclick = ashBourne;
