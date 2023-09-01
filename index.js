@@ -21,9 +21,9 @@ function ashBourne() {
     alert ("Hello, Master Im Ashbourne your personal chatbot");
 
     var name = prompt ("What is your name?");
-    const yourAnswers = prompt ("How may I help you " + name + "?");
+    const yourAnswers = prompt ("How may I help you Master " + name + "?");
     if (yourAnswers == "I want to talk") {
-        var talkBot = prompt ("What do you want to talk about Master?");
+        var talkBot = prompt ("What do you want to talk about Master" + name + "?");
         if (talkBot == "Relationship") {
             var talk = prompt ("Hows your relationship with other?")
             if (talk == "Not good", "Bo bad", "Bad", "Not as good it should be", "Sad", "Very sad") {
