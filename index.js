@@ -45,3 +45,17 @@ function ashBourne() {
     }
 }
 document.getElementById("Ashborn").onclick = ashBourne;
+
+var userSpace = document.getElementById("userSpace");
+var myText = document.getElementById("myText");
+var limits = 150;
+myText.textContent = "Character counts " + 0 + "/" + limits;
+
+userSpace.addEventListener("input",function(){
+    var letterLength = userSpace.value.length;
+    myText.textContent = "Character counts " + letterLength + "/" + limits
+
+    if (letterLength > limits) {
+        alert ("Please delete more letters! there is " + letterLength + " characters you are exceeding the limit!!")
+    }
+});
