@@ -52,7 +52,7 @@ var limits = 150;
 myText.textContent = "Character counts " + 0 + "/" + limits;
 
 userSpace.addEventListener("input",function(){
-    var letterLength = userSpace.value.length;
+    let letterLength = userSpace.value.length;
     myText.textContent = "Character counts " + letterLength + "/" + limits
 
     if (letterLength > limits) {
